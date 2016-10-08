@@ -1,0 +1,21 @@
+.loginPage {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eee;
+}
+
+.container {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0px 2px 7px 0 rgba(0,0,0,0.1);
+  width: 450px;
+  flex-direction: column;
+}
+
+.logo {
+  text-align: center;
+  padding: 20px 20px 0px 20px;
+  margin: 0;
+}
