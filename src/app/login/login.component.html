@@ -5,6 +5,8 @@
     </div>
     <hr>
     <form [formGroup]="loginForm" (ngSubmit)="submitForm()" class="form form-vertical">
+      <p *ngIf="errorMessage" class="text-xs-center text-danger">{{ errorMessage }}</p>
+
       <div class="form-group">
         <label class="sr-only">Email</label>
         <div class="input-group">
